@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="ventana" prefHeight="600.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLviewController">
+   <children>
+      <Pane fx:id="pane00" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane01" layoutX="106.0" layoutY="000.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane02" layoutX="206.0" layoutY="000.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane03" layoutX="306.0" layoutY="000.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane04" layoutX="406.0" layoutY="000.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane05" layoutX="506.0" layoutY="000.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane06" layoutX="606.0" layoutY="000.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane10" layoutX="000.0" layoutY="100.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane11" layoutX="106.0" layoutY="100.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane12" layoutX="206.0" layoutY="100.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane13" layoutX="306.0" layoutY="100.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane14" layoutX="406.0" layoutY="100.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane15" layoutX="506.0" layoutY="100.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane16" layoutX="606.0" layoutY="100.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane20" layoutX="000.0" layoutY="200.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane21" layoutX="106.0" layoutY="200.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane22" layoutX="206.0" layoutY="200.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane23" layoutX="306.0" layoutY="200.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane24" layoutX="406.0" layoutY="200.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane25" layoutX="506.0" layoutY="200.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane26" layoutX="606.0" layoutY="200.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane30" layoutX="000.0" layoutY="300.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane31" layoutX="106.0" layoutY="300.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane32" layoutX="206.0" layoutY="300.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane33" layoutX="306.0" layoutY="300.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane34" layoutX="406.0" layoutY="300.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane35" layoutX="506.0" layoutY="300.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane36" layoutX="606.0" layoutY="300.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane40" layoutX="000.0" layoutY="400.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane41" layoutX="106.0" layoutY="400.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane42" layoutX="206.0" layoutY="400.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane43" layoutX="306.0" layoutY="400.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane44" layoutX="406.0" layoutY="400.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane45" layoutX="506.0" layoutY="400.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane46" layoutX="606.0" layoutY="400.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane50" layoutX="000.0" layoutY="500.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane51" layoutX="106.0" layoutY="500.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane52" layoutX="206.0" layoutY="500.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane53" layoutX="306.0" layoutY="500.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane54" layoutX="406.0" layoutY="500.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="107.0" style="-fx-background-color: #01A2A6;" />
+      <Pane fx:id="pane55" layoutX="506.0" layoutY="500.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #29D9C2;" />
+      <Pane fx:id="pane56" layoutX="606.0" layoutY="500.0" onMouseClicked="#ponerMarca" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #01A2A6;" />
+   </children>
+</AnchorPane>
